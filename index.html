@@ -1,0 +1,140 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Management System</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="bg-dark text-white py-4">
+            <h1 class="text-center">Customer Management System</h1>
+        </header>
+        <main>
+            <section id="customer-form">
+                <h2>Add Customer</h2>
+                <form id="add-customer-form">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Customer</button>
+                </form>
+            </section>
+            <section id="customer-list">
+                <h2>Customer List</h2>
+                <ul id="customer-list-items" class="list-group"></ul>
+            </section>
+
+            <section id="delete-customer">
+                <h2>Delete Customer</h2>
+                <form id="delete-customer-form">
+                    <div class="form-group">
+                        <label for="deleteFirstName">First Name:</label>
+                        <input type="text" class="form-control" id="deleteFirstName" name="deleteFirstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="deleteLastName">Last Name:</label>
+                        <input type="text" class="form-control" id="deleteLastName" name="deleteLastName" required>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Delete Customer</button>
+                </form>
+            </section>
+
+            <button id="fetch-emails-btn" class="btn btn-info">Fetch Emails</button>
+        </main>
+        <footer class="bg-dark text-white py-3 mt-4">
+            <p class="text-center">&copy; 2024 Customer Management System</p>
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Management System</title>
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link your custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="bg-dark text-white py-4">
+            <h1 class="text-center">Customer Management System</h1>
+        </header>
+        <main>
+            <section id="customer-form">
+                <h2>Add Customer</h2>
+                <form id="add-customer-form">
+                    <div class="form-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Customer</button>
+                </form>
+            </section>
+            <section id="customer-list">
+                <h2>Customer List</h2>
+                <ul id="customer-list-items" class="list-group"></ul>
+            </section>
+            <!-- Add the delete customer form section -->
+            <section id="delete-customer">
+                <h2>Delete Customer</h2>
+                <form id="delete-customer-form">
+                    <div class="form-group">
+                        <label for="deleteFirstName">First Name:</label>
+                        <input type="text" class="form-control" id="deleteFirstName" name="deleteFirstName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="deleteLastName">Last Name:</label>
+                        <input type="text" class="form-control" id="deleteLastName" name="deleteLastName" required>
+                    </div>
+                    <button type="submit" class="btn btn-danger">Delete Customer</button>
+                </form>
+            </section>
+            <!-- Add the fetch emails button -->
+            <button id="fetch-emails-btn" class="btn btn-info">Fetch Emails</button>
+        </main>
+        <footer class="bg-dark text-white py-3 mt-4">
+            <p class="text-center">&copy; 2024 Customer Management System</p>
+        </footer>
+    </div>
+    <!-- Add Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Link your custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
